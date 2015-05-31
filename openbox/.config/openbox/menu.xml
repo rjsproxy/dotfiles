@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/                 file:///usr/share/openbox/menu.xsd">
+	<menu id="root-menu" label="Openbox 3">
+		<item label="terminal">
+			<action name="Execute">
+				<execute>urxvt</execute>
+			</action>
+		</item>
+		<item label="browser">
+			<action name="Execute">
+				<execute>/home/rjs/Local/firefox/firefox</execute>
+			</action>
+		</item>
+		<item label="email">
+			<action name="Execute">
+				<execute>/home/rjs/Local/thunderbird/thunderbird</execute>
+			</action>
+		</item>
+		<item label="office">
+			<action name="Execute">
+				<execute>libreoffice</execute>
+			</action>
+		</item>
+		<item label="xkill">
+			<action name="Execute">
+				<execute>xkill</execute>
+			</action>
+		</item>
+		<separator/>
+		<!-- This requires the presence of the 'menu' package to work -->
+		<menu id="root-menu-8419" label="misc">
+			<item label="RSS">
+				<action name="Execute">
+					<execute>
+						liferea
+					</execute>
+				</action>
+			</item>
+			<item label="mutt">
+				<action name="Execute">
+					<execute>
+						x-terminal-emulator -e mutt
+					</execute>
+				</action>
+			</item>
+			<item label="mocp">
+				<action name="Execute">
+					<execute>
+						x-terminal-emulator -e mocp
+					</execute>
+				</action>
+			</item>
+			<item label="inkscape">
+				<action name="Execute">
+					<execute>
+						inkscape
+					</execute>
+				</action>
+			</item>
+			<item label="Nautilus">
+				<action name="Execute">
+					<execute>
+						nautilus
+					</execute>
+				</action>
+			</item>
+			<item label="Psi">
+				<action name="Execute">
+					<execute>
+						psi
+					</execute>
+				</action>
+			</item>
+			<item label="xclock">
+				<action name="Execute">
+					<execute>
+						xclock -digital
+					</execute>
+				</action>
+			</item>
+			<item label="virtualbox">
+				<action name="Execute">
+					<execute>
+						virtualbox
+					</execute>
+				</action>
+			</item>
+			<item label="GTK Timer">
+				<action name="Execute">
+					<execute>
+						gtimer
+					</execute>
+				</action>
+			</item>
+			<item label="pidgin">
+				<action name="Execute">
+					<execute>
+						pidgin
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-474438" label="mocp">
+			<item label="play">
+				<action name="Execute">
+					<execute>
+						mocp -p
+					</execute>
+				</action>
+			</item>
+			<item label="next">
+				<action name="Execute">
+					<execute>
+						mocp -f
+					</execute>
+				</action>
+			</item>
+			<item label="prev">
+				<action name="Execute">
+					<execute>
+						mocp -b
+					</execute>
+				</action>
+			</item>
+			<item label="pause">
+				<action name="Execute">
+					<execute>
+						mocp -P
+					</execute>
+				</action>
+			</item>
+			<item label="resume">
+				<action name="Execute">
+					<execute>
+						mocp -U
+					</execute>
+				</action>
+			</item>
+			<item label="shuffle">
+				<action name="Execute">
+					<execute>
+						mocp -t shuffle
+					</execute>
+				</action>
+			</item>
+			<item label="stop">
+				<action name="Execute">
+					<execute>
+						mocp -s
+					</execute>
+				</action>
+			</item>
+			<item label="exit">
+				<action name="Execute">
+					<execute>
+						mocp -x
+					</execute>
+				</action>
+			</item>
+			<item label="xmix">
+				<action name="Execute">
+					<execute>
+						xmix
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="Debian"/>
+		<menu id="root-menu-603712" label="conf">
+			<item label="obconf">
+				<action name="Execute">
+					<execute>
+						obconf
+					</execute>
+				</action>
+			</item>
+			<item label="obmenu">
+				<action name="Execute">
+					<execute>
+						obmenu
+					</execute>
+				</action>
+			</item>
+			<item label="restart">
+				<action name="Restart"/>
+			</item>
+			<item label="reconf">
+				<action name="Reconfigure"/>
+			</item>
+		</menu>
+		<separator/>
+		<item label="sleep">
+			<action name="Execute">
+				<execute>
+					/usr/sbin/pm-hibernate
+				</execute>
+			</action>
+		</item>
+		<item label="exit">
+			<action name="Exit"/>
+		</item>
+	</menu>
+</openbox_menu>
