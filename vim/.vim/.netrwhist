@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/rjs/Develop/django-hcms/virtualenv/lib/python2.7/site-packages/django/contrib/contenttypes'
+let g:netrw_dirhist_2='/home/rjs/Develop/django-hcms/demosite/hcms/templatetags'
+let g:netrw_dirhist_3='/home/rjs/03-pass'

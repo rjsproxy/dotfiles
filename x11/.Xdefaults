@@ -1,0 +1,66 @@
+!URxvt*termName:                         screen-256color
+
+
+! Color Scheme.
+URxvt*background: black
+URxvt*foreground: green
+URxvt*scrollBar: false
+URxvt*saveLines: 1500
+URxvt*transparent: true
+!URxvt.background:       #000000
+!URxvt.foreground:       gray90
+!URxvt.color7:           gray90
+!URxvt.colorBD:          #ffffff
+!URxvt*colorIT:
+!URxvt*colorUL:
+!URxvt*colorRV:
+!URxvt.cursorColor:      #e0e080
+!URxvt.throughColor:     #8080f0
+!URxvt.highlightColor:   #f0f0f0
+!URxvt.underlineColor:   yellow
+!URxvt*reverseVideo: true
+
+
+! Terminal Background.
+!
+! Tint or shade background (using both is not required).
+!
+!URxvt*tintColor: green
+!URxvt*blurRadius: 5
+URxvt*shading: 30
+
+
+
+
+!URxvt*font: xft:Monospace:pixelsize=14
+!URxvt*font: 9x15bold
+!URxvt.font:     xft:bitstream vera sans mono:size=12:antialias=true
+!URxvt.boldFont: xft:bitstream vera sans mono:bold:size=12:antialias=true
+!URxvt.font:xft:Droid Sans Mono:size=12:antialias=true
+!URxvt.boldFont:xft:Droid Sans Mono:size=12:antialias=true
+!xfonts-terminus
+URxvt*font: xft:Terminus:pixelsize=16:antialias=true:hinting=true
+URxvt*boldFont: xft:Terminus:pixelsize=16:antialias=true:hinting=true
+!fonts-dejavu
+!URxvt*font: xft:DejaVu Sans Mono:pixelsize=12:antialias=true:hinting=true
+!URxvt*boldFont: xft:DejaVu Sans Mono:bold:pixelsize=12:antialias=true:hinting=true
+!fonts-liberation
+!URxvt*font: xft:Liberation Mono:pixelsize=13:antialias=true:hinting=true
+!URxvt*boldFont: xft:Liberation Mono:bold:pixelsize=13:antialias=true:hinting=true
+! Adjust spacing between letters in pixels.
+!URxvt.letterSpace: -1
+
+
+URxvt*buffered: true
+URxvt*saveLines: 5000
+
+URxvt*fading: 10
+
+URxvt.perl-ext-common : default,matcher
+URxvt.urlLauncher     : /home/rjs/opt/firefox/firefox
+URxvt.matcher.button  : 1
+
+! http://ctkarch.org/documentation/tutorials/tuto.php?page=urxvt-transpa.xml
+
+
+URxvt*cursorBlink: true
