@@ -1,6 +1,7 @@
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
+colorscheme koehler
 
 " Make tabs 2 characters.
 set tabstop=4
@@ -14,3 +15,5 @@ set expandtab
 set nowrap
 
 set tags=~/.mytags
+
+
