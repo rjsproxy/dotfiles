@@ -8,12 +8,12 @@
 		</item>
 		<item label="browser">
 			<action name="Execute">
-				<execute>/home/rjs/Local/firefox/firefox</execute>
+				<execute>firefox</execute>
 			</action>
 		</item>
 		<item label="email">
 			<action name="Execute">
-				<execute>/home/rjs/Local/thunderbird/thunderbird</execute>
+				<execute>thunderbird</execute>
 			</action>
 		</item>
 		<item label="office">
@@ -48,6 +48,11 @@
 					<execute>
 						x-terminal-emulator -e mocp
 					</execute>
+				</action>
+			</item>
+			<item label="Steam">
+				<action name="Execute">
+					<execute>steam</execute>
 				</action>
 			</item>
 			<item label="inkscape">

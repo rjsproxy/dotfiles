@@ -1,11 +1,23 @@
+! Running "xrdb ~/.Xdefaults" will give feedback if errors exist.
+
+
 !URxvt*termName:                         screen-256color
 
+
+
+! Xft Settings (Untested)
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+!Xft.autohint: false
+Xft.lcdfilter: lcddefault
+Xft.hinting:    true
+Xft.hintstyle:  hintfull
 
 ! Color Scheme.
 URxvt*background: black
 URxvt*foreground: green
 URxvt*scrollBar: false
-URxvt*saveLines: 1500
 URxvt*transparent: true
 !URxvt.background:       #000000
 !URxvt.foreground:       gray90
@@ -30,6 +42,16 @@ URxvt*transparent: true
 URxvt*shading: 30
 
 
+! http://sourcefoundry.org/hack/
+URxvt*font: xft:Hack:style=Regular:size=10:antialias=true:hinting=true
+URxvt*boldFont: xft:Hack:style=Bold:size=10:antialias=true:hinting=true
+! Adjust spacing between letters in pixels.
+URxvt.letterSpace: 0
+
+
+! Previous Font.
+!URxvt*font: xft:Terminus:pixelsize=16:antialias=true:hinting=true
+!URxvt*boldFont: xft:Terminus:pixelsize=16:antialias=true:hinting=true
 
 
 !URxvt*font: xft:Monospace:pixelsize=14
@@ -39,16 +61,12 @@ URxvt*shading: 30
 !URxvt.font:xft:Droid Sans Mono:size=12:antialias=true
 !URxvt.boldFont:xft:Droid Sans Mono:size=12:antialias=true
 !xfonts-terminus
-URxvt*font: xft:Terminus:pixelsize=16:antialias=true:hinting=true
-URxvt*boldFont: xft:Terminus:pixelsize=16:antialias=true:hinting=true
 !fonts-dejavu
 !URxvt*font: xft:DejaVu Sans Mono:pixelsize=12:antialias=true:hinting=true
 !URxvt*boldFont: xft:DejaVu Sans Mono:bold:pixelsize=12:antialias=true:hinting=true
 !fonts-liberation
 !URxvt*font: xft:Liberation Mono:pixelsize=13:antialias=true:hinting=true
 !URxvt*boldFont: xft:Liberation Mono:bold:pixelsize=13:antialias=true:hinting=true
-! Adjust spacing between letters in pixels.
-!URxvt.letterSpace: -1
 
 
 URxvt*buffered: true
@@ -56,9 +74,10 @@ URxvt*saveLines: 5000
 
 URxvt*fading: 10
 
-URxvt.perl-ext-common : default,matcher
-URxvt.urlLauncher     : /home/rjs/opt/firefox/firefox
-URxvt.matcher.button  : 1
+! Match urls in terminal text.
+!URxvt.perl-ext-common : default,matcher
+!URxvt.urlLauncher     : /home/rjs/opt/firefox/firefox
+!URxvt.matcher.button  : 1
 
 ! http://ctkarch.org/documentation/tutorials/tuto.php?page=urxvt-transpa.xml
 
