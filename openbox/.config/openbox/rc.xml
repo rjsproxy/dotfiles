@@ -30,7 +30,7 @@
     <center>no</center>
     <!-- whether to place windows in the center of the free area found or
        the top left corner -->
-    <monitor>Any</monitor>
+    <monitor>Active</monitor>
     <!-- with Smart placement on a multi-monitor system, try to place new windows
        on: 'Any' - any monitor, 'Mouse' - where the mouse is, 'Active' - where
        the active window is -->
@@ -183,6 +183,48 @@
     <keybind key="A-Up">
       <action name="ToggleMaximize"/>
     </keybind>
+    <keybind key="A-BackSpace">
+      <action name="Close"/>
+    </keybind>
+    <!-- RJS: Experiment with maximise to half of screen. -->
+    <keybind key="A-h">
+      <action name="Focus"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>0</y>
+        <width client="yes">50%</width>
+        <height client="yes">100%</height>
+      </action>
+    </keybind>
+    <keybind key="A-j">
+      <action name="Focus"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>0</y>
+        <width client="yes">100%</width>
+        <height client="yes">50%</height>
+      </action>
+    </keybind>
+    <keybind key="A-k">
+      <action name="Focus"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>--0</y>
+        <width client="yes">100%</width>
+        <height client="yes">50%</height>
+      </action>
+    </keybind>
+    <keybind key="A-l">
+      <action name="Focus"/>
+      <action name="MoveResizeTo">
+        <x>--0</x>
+        <y>0</y>
+        <width client="yes">50%</width>
+        <height client="yes">100%</height>
+      </action>
+    </keybind>
+
+
     <!-- Default Config
     <keybind key="A-Up">
       <action name="DesktopUp">
